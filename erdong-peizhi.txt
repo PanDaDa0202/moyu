@@ -195,6 +195,9 @@ final, Final
 [server_local]
 # 本地服务器节点
 
+vmess=148.135.58.2:35901, method=aes-128-gcm, password=cbb35afe-33dc-49b9-f1f6-e77a211e18d3, obfs=ws, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=中国联通
+vmess=www.laop.eu.org:20867, method=aes-128-gcm, password=1f78dd35-a08b-4a6f-8f40-bb85cb1dac60, obfs=over-tls, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=中国电信
+
 [server_remote]
 # 服务器引用(订阅)，支持远程订阅地址和本地文件
 
@@ -212,6 +215,13 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Q
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Redirect/Redirect.conf, tag=Redirect(blackmatrix7, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, tag=Sub-Store, update-interval=172800, opt-parser=true, enabled=true
 https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=boxjs, update-interval=172800, opt-parser=false, enabled=true
+https://gitee.com/laopkz/qx/raw/master/caiyun.js, tag=彩云, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js, tag=青龙, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/KeepStyle.conf, tag=keep, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/chxm1023/Rewrite/main/wannianli.js, tag=日历, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Amap.conf, tag=高德地图净化[卸载重装]@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/UnblockURLinWeChat.conf, tag=微信解锁被屏蔽的URL@zZPiglet, update-interval=86400, opt-parser=false, enabled=true
+
 
 [rewrite_local]
 # 本地重写
