@@ -256,13 +256,7 @@ server=/icloud.com.cn/119.29.29.29
 
 
 
-# 🟢>>>>>>>>>>>本地服务<<<<<<<<<<<<<<<
-[server_local]
-# trojan=oracle.xcc22.ml:22801, password=aFA6xp7DbR, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=Seoul-Amd
-# trojan=oracle.xcc22.eu.org:443, password=3FpHM1GKA7, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=Seoul-Arm
-# ======================================
-# 单个节点（本地服务器部分，自行添加即可）
-# ======================================
+
 
 
 
